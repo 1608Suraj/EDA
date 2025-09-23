@@ -30,7 +30,8 @@ The goal is to build a **clean, enriched dataset** by combining API-scraped and 
 2. **Data Cleaning**
    - Removed duplicates  
    - Standardized company names, locations, and industry categories  
-   - Handled inconsistent formatting  
+   - Handled inconsistent formatting
+   - filter out some essential features 
 
 3. **AI-Powered Enrichment**
    - Missing fields (e.g., city, state, industry) were **contextually filled using the Groq LLM API**  
